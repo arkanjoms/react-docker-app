@@ -1,0 +1,11 @@
+version: '3'
+services:
+  react-docker-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+    ports:
+      - "3000:3000"
+    user: ${CURRENT_UID}
+    volumes:
+      - ./:/app
