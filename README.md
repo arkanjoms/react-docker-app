@@ -6,6 +6,8 @@ Aplicação Reac exemplo para desenvolvimento com docker.
 
  - docker
  - docker-compose
+ - npm
+ - yarn
 
 ## Utilização
 
