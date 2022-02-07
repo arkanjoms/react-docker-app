@@ -6,19 +6,22 @@ Aplicação Reac exemplo para desenvolvimento com docker.
 
  - docker
  - docker-compose
- - npm
- - yarn
+ - make
 
 ## Utilização
 
 Baixe o código e execute o script abaixo:
 
 ```bash
-$ ./dev.sh start
+$ make start
 ```
 
-## Demais comandos do script
+## Demais comandos disponíveis no makefile
 
+ - `build` - build a imagem de desenvolvimento
  - `stop` - Para a execução do container.
  - `restart` - Reinicia o container.
  - `clean` - Remove o container.
+ - `logs` - Visualiza os logs do container de desenvolvimento em execução.
+
+___
